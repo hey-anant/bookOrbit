@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookOrbit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>📚 BookOrbit</h1>
+            <p>Find, read, and download your favorite books and novels!</p>
+        </div>
+    </header>
+    <main>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for a book or novel..." />
+            <button id="searchBtn">🔍 Search</button>
+        </div>
+        <div id="results" class="results"></div>
+    </main>
+
+    <!-- Modal for Book Details -->
+    <div id="bookModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modalDetails"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 BookOrbit ❤️</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
